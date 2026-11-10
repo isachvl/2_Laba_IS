@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+models/
+bin/
+downloads/
+mlflow.db*
+mlruns/
+mlartifacts/
+**/mlflow_runs.json
+runs/preflight/
+runs/20261106_182557/
+runs/20261106_183549/
+*.part

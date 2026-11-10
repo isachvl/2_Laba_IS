@@ -1,0 +1,9 @@
+test_llm_only_no_citation (test_rag.RequiredTests.test_llm_only_no_citation) ... ok
+test_parser_rejects_wrong_answers (test_rag.RequiredTests.test_parser_rejects_wrong_answers) ... ok
+test_partial_rationale_is_not_enough (test_rag.RequiredTests.test_partial_rationale_is_not_enough) ... ok
+test_retrieval_example (test_rag.RequiredTests.test_retrieval_example) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK

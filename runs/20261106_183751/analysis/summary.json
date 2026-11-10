@@ -1,0 +1,216 @@
+{
+  "experiment1": {
+    "llm_only": {
+      "n": 90,
+      "accuracy": 0.4,
+      "recall": {
+        "SUPPORT": 0.23333333333333334,
+        "CONTRADICT": 0.6,
+        "NOINFO": 0.36666666666666664
+      },
+      "citation": 0.0,
+      "errors": 0
+    },
+    "rag3": {
+      "n": 90,
+      "accuracy": 0.6333333333333333,
+      "recall": {
+        "SUPPORT": 0.7,
+        "CONTRADICT": 0.9,
+        "NOINFO": 0.3
+      },
+      "citation": 0.65,
+      "errors": 1
+    }
+  },
+  "matched60": {
+    "llm_only": {
+      "n": 60,
+      "accuracy": 0.4166666666666667,
+      "recall": {
+        "SUPPORT": 0.23333333333333334,
+        "CONTRADICT": 0.6,
+        "NOINFO": null
+      },
+      "citation": 0.0,
+      "errors": 0
+    },
+    "rag3": {
+      "n": 60,
+      "accuracy": 0.8,
+      "recall": {
+        "SUPPORT": 0.7,
+        "CONTRADICT": 0.9,
+        "NOINFO": null
+      },
+      "citation": 0.65,
+      "errors": 0
+    },
+    "oracle": {
+      "n": 60,
+      "accuracy": 0.7166666666666667,
+      "recall": {
+        "SUPPORT": 0.7,
+        "CONTRADICT": 0.7333333333333333,
+        "NOINFO": null
+      },
+      "citation": 0.7166666666666667,
+      "errors": 4
+    }
+  },
+  "paired": {
+    "llm_to_rag3": {
+      "n": 90,
+      "fixed": 28,
+      "broken": 7,
+      "fixed_ids": [
+        1089,
+        314,
+        960,
+        613,
+        1107,
+        143,
+        982,
+        904,
+        130,
+        569,
+        386,
+        957,
+        436,
+        1385,
+        805,
+        1130,
+        1137,
+        212,
+        1270,
+        903,
+        216,
+        1382,
+        1232,
+        882,
+        421,
+        237,
+        660,
+        312
+      ],
+      "broken_ids": [
+        845,
+        554,
+        478,
+        362,
+        507,
+        514,
+        527
+      ],
+      "delta_pp": 23.333333333333332
+    },
+    "rag3_to_rag1": {
+      "n": 90,
+      "fixed": 5,
+      "broken": 8,
+      "fixed_ids": [
+        521,
+        830,
+        535,
+        975,
+        238
+      ],
+      "broken_ids": [
+        569,
+        805,
+        212,
+        598,
+        903,
+        882,
+        660,
+        440
+      ],
+      "delta_pp": -3.3333333333333335
+    },
+    "rag3_to_rag5": {
+      "n": 90,
+      "fixed": 5,
+      "broken": 4,
+      "fixed_ids": [
+        1274,
+        845,
+        1336,
+        578,
+        238
+      ],
+      "broken_ids": [
+        660,
+        440,
+        785,
+        99
+      ],
+      "delta_pp": 1.1111111111111112
+    }
+  },
+  "by_k": {
+    "1": {
+      "n": 90,
+      "accuracy": 0.6,
+      "recall": 0.6347222222222223,
+      "citation": 0.48333333333333334,
+      "errors": 7,
+      "hit": 0.6666666666666666,
+      "rr": 0.6666666666666666,
+      "evidence_in_prompt": 0.6666666666666666,
+      "mean_documents": 1.0,
+      "mean_tokens": 536.8333333333334,
+      "class_recall": {
+        "SUPPORT": 0.6666666666666666,
+        "CONTRADICT": 0.7666666666666667,
+        "NOINFO": 0.36666666666666664
+      }
+    },
+    "3": {
+      "n": 90,
+      "accuracy": 0.6333333333333333,
+      "recall": 0.8144444444444444,
+      "citation": 0.65,
+      "errors": 1,
+      "hit": 0.85,
+      "rr": 0.7527777777777779,
+      "evidence_in_prompt": 0.85,
+      "mean_documents": 2.966666666666667,
+      "mean_tokens": 1287.3166666666666,
+      "class_recall": {
+        "SUPPORT": 0.7,
+        "CONTRADICT": 0.9,
+        "NOINFO": 0.3
+      }
+    },
+    "5": {
+      "n": 90,
+      "accuracy": 0.6444444444444445,
+      "recall": 0.8566666666666667,
+      "citation": 0.6833333333333333,
+      "errors": 1,
+      "hit": 0.8833333333333333,
+      "rr": 0.7602777777777778,
+      "evidence_in_prompt": 0.8833333333333333,
+      "mean_documents": 4.583333333333333,
+      "mean_tokens": 1812.5,
+      "class_recall": {
+        "SUPPORT": 0.7666666666666667,
+        "CONTRADICT": 0.9666666666666667,
+        "NOINFO": 0.2
+      }
+    }
+  },
+  "budget_check": {
+    "denominator": 60,
+    "budget2048_count": 51,
+    "budget1024_count": 49,
+    "budget1024_fraction": 0.8166666666666667,
+    "unchanged_prompt_k3_to_k5_ids": [
+      143,
+      971,
+      130,
+      1298,
+      521
+    ]
+  }
+}

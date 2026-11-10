@@ -1,0 +1,39 @@
+{
+  "started": "2026-11-06T18:37:52.014663+07:00",
+  "status": "completed",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "profile": "LR1 Qwen GGUF; llama.cpp b12110 CPU, Ryzen 7 3700X, 8 threads; port 8082",
+  "generation": {
+    "temperature": 0,
+    "max_tokens": 128,
+    "seed": 42,
+    "cache_prompt": false
+  },
+  "source_hashes": {
+    "analyze.py": "fdd4b7d369658c22832c43027de0b9a8d1afb9c64111464297186f5c5ad161ab",
+    "build_index.py": "8adbbb950de27b4845e2296250b7df52930c3db26faf70e3c7f5ae920b8bdcfe",
+    "common.py": "3697962d9f3642b9d02a120358624132f47949f1cd1ce309c07406ddc94134fe",
+    "evaluation.py": "2e3ccdbe8701d7db2c58367ad3a9f4e3dae6df8868fc46424fb580871536ceb1",
+    "experiment.py": "20ac81cac8016d444b2b7de3b0702ebe9c2ac3cf0e4b7bc0e165cd29bdb3a790",
+    "make_report.py": "2a7b648191d3e6e0ecd699db67937f2651b34c681184883ddf4f25c09d248f08",
+    "prepare_data.py": "e91d25264a061b45a57cf52d4e7944cc3e951ff0bec553a4356872fffd7cbf64",
+    "rag.py": "c49e10c5be80946198eed11efac093f2da2f27d25d42741b5d0f1f5fbcd1ac89",
+    "run_all.py": "698c2d7065dfe65a233b11d0cce579c1b7e0b1b5fc7d02d636dba91897ae9209",
+    "setup_server.py": "81d51709ad5068e185e97206105238d8d054ccf91feaee968cd17cd2a3c53005",
+    "test_rag.py": "1fe11754ca42d9f27353596ca6c61b7e494302f4221a457c73c6e38395947e0f"
+  },
+  "model_sha256": "2fde00ce69dd4899c70d020845e2638353015bba0fdf161b3eb965f2bca4464e",
+  "finished": "2026-11-06T20:20:35.166146+07:00",
+  "final_source_hashes": {
+    "analyze.py": "cefa243194af95cd11def3486ab81e0b43314806ddca282d6c8414c2dc69b649",
+    "build_index.py": "8adbbb950de27b4845e2296250b7df52930c3db26faf70e3c7f5ae920b8bdcfe",
+    "common.py": "3697962d9f3642b9d02a120358624132f47949f1cd1ce309c07406ddc94134fe",
+    "evaluation.py": "2e3ccdbe8701d7db2c58367ad3a9f4e3dae6df8868fc46424fb580871536ceb1",
+    "experiment.py": "20ac81cac8016d444b2b7de3b0702ebe9c2ac3cf0e4b7bc0e165cd29bdb3a790",
+    "make_report.py": "07532861045f5ab0b2a124283a87c1ab58b78989d9b74a275493b4dc100bb8e7",
+    "prepare_data.py": "e91d25264a061b45a57cf52d4e7944cc3e951ff0bec553a4356872fffd7cbf64",
+    "rag.py": "c49e10c5be80946198eed11efac093f2da2f27d25d42741b5d0f1f5fbcd1ac89",
+    "run_all.py": "698c2d7065dfe65a233b11d0cce579c1b7e0b1b5fc7d02d636dba91897ae9209",
+    "test_rag.py": "1fe11754ca42d9f27353596ca6c61b7e494302f4221a457c73c6e38395947e0f"
+  }
+}

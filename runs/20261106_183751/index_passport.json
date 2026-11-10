@@ -1,0 +1,20 @@
+{
+  "model": "BAAI/bge-small-en-v1.5",
+  "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "dimension": 384,
+  "max_length": 512,
+  "normalized": true,
+  "query_prefix": "Represent this sentence for searching relevant passages: ",
+  "document_prefix": "",
+  "document_text": "title + newline + abstract sentences joined by spaces",
+  "truncated_count": 455,
+  "truncated_fraction": 0.08778699594829249,
+  "matrix_shape": [
+    5183,
+    384
+  ],
+  "matrix_sha256": "5b3390a4ff60dd41f41bd645feb83537dd7cdd1ec0472928b6db3b0fcdf537f5",
+  "same_text_cosine": 1.0000001192092896,
+  "with_query_instruction_cosine": 0.9387298226356506,
+  "note": "Identical encoder inputs give cosine ~1; the documented BGE query instruction changes the actual query input."
+}
